@@ -10,13 +10,13 @@ class Calculadora extends JFrame implements ActionListener
 
 	public static void main(String args[])
 	{
-		JFrame janela = new Exemplo4();
+		JFrame janela = new Calculadora();
 		janela.setUndecorated(true);
 		janela.getRootPane().setWindowDecorationStyle(JRootPane.FRAME);
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		janela.setVisible(true);
 	}
-	Exemplo4()
+	Calculadora()
 	{
 		setTitle("Calculadora");
 		setBounds(300, 50, 350, 90);
